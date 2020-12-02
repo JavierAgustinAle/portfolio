@@ -10165,6 +10165,9 @@ section.resume-section .resume-section-content {
   font-size: 1.2rem;
 }
 
+.show{
+  display: none;
+}
 
 
 @media (min-width: 992px) {
@@ -10205,5 +10208,23 @@ section.resume-section .resume-section-content {
   .portfolio-item:hover .hide {
     display: block;
     color: #7DEC1F;
+  }
+
+  
+}
+
+@media screen and (max-width: 768px) {
+    .show{
+      display:block;
+      color: #000;
+    }
+    .description {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+  .description {
+    display: none;
   }
 }
