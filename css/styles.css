@@ -10207,7 +10207,8 @@ section.resume-section .resume-section-content {
 
   .portfolio-item:hover .hide {
     display: block;
-    color: #7DEC1F;
+    font-weight: 500;
+    color: #050313;
   }
 
   
